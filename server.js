@@ -8,6 +8,7 @@ const app = express();
 
 const { PORT } = process.env;
 
+// algo
 app.get("/", function (req, res) {
     res.send("Hello World");
 });
