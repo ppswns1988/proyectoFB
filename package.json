@@ -1,5 +1,6 @@
 {
   "name": "proyecto",
+  "type": "module",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -9,5 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
 }
